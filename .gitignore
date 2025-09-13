@@ -4,6 +4,8 @@ Release/
 #Drivers/
 #Middlewares/
 
+Core/Src/CAN_Jam.c
+Core/Src/CAN_Parser.c 
 
 # Compiled source #
 ###################

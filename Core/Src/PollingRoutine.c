@@ -91,6 +91,7 @@ CAN_Jam_t can2_mod =
 	.can_jam_size = CAN_JAM_SIZE
 };
 
+CAN_Jam_Relay_t can_jam_relay = {0};
 
 #define USB_QUEUE_SIZE 16
 USB_Data_t usbRxQueue[USB_QUEUE_SIZE] = {0};
@@ -159,6 +160,9 @@ void USB_Parse(USB_MsgStruct *msg)
 			break;
 		case CMD_CAN2_DEL_MOD:
 			CAN_Jam_Delete(&can2_mod, msg->msgToParse->Status.data);
+			break;
+		case CMD_CAN_JAM_RELAY:
+			CAN_Jam_Relay_Msg(&can_jam_relay, msg->msgToParse->Status.data);
 			break;
 		case CMD_CAN1_BAUD:
 			status = CAN_BTR_Set(&can1_msg, msg->msgToParse->Status.data);

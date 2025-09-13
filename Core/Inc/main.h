@@ -66,6 +66,7 @@ extern CAN_MsgStruct can1_msg;
 extern CAN_MsgStruct can2_msg;
 extern CAN_Jam_t can1_mod;
 extern CAN_Jam_t can2_mod;
+extern CAN_Jam_Relay_t can_jam_relay;
 extern USB_MsgStruct usb_msg;
 extern TimerCallbackStruct timerCallback;
 

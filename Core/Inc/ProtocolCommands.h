@@ -25,6 +25,7 @@
 #define CMD_CAN2_ADD_MOD 0x41
 #define CMD_CAN1_DEL_MOD 0x42 // delete modification
 #define CMD_CAN2_DEL_MOD 0x43
+#define CMD_CAN_JAM_RELAY 0x44
 
 #define CMD_INFO 0x90 // N/A
 #define CMD_CAN1_BTR 0x91 // send back the CAN BTC value to PC
