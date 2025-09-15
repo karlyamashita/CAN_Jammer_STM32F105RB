@@ -38,7 +38,8 @@ typedef struct
 	uint32_t index:8; // or key,  probably won't need
 
 	uint32_t node:1; // which CANx to apply to, can1_mod = 0 or can2_mod = 1
-	uint32_t :7; // reserved
+	uint32_t jam:1;
+	uint32_t :6; // reserved
 
 	uint32_t :8; // reserved
 

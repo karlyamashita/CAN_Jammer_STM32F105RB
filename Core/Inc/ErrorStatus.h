@@ -36,6 +36,7 @@ enum {
 	I2C_ERROR_WRITE,
 	CAN_JAM_LIST_FULL,
 	CAN_JAM_ID_NOT_FOUND,
+	CAN_JAM_BLOCK_ID,
 
     // for debug
     ERR_1 = 200,
