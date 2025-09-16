@@ -10,7 +10,7 @@ What the CAN Jammer can do:<br>
 * You can override certain bytes with hardcoded bytes.
 * You can send CAN messages to either CAN1 or CAN2 side, isolated from the opposite side.
 
-<img width="800" height="476" alt="Image" src="https://github.com/user-attachments/assets/4630f861-c643-40c4-b6f8-72c802f6ca54" />
+<img width="1024" height="609" alt="Image" src="https://github.com/user-attachments/assets/9419c315-3baa-4cbc-ba5d-8452d9d5ef27" />
 
 
 ### Documentation
